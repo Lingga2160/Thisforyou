@@ -2,7 +2,7 @@
 include 'func.php';
 
 /*
-    https://github.com/nee48/BomSmsPhD
+    https://github.com/nee48/BomTelpSmsTokped
     Made by Handika Pratama
 */
 
