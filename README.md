@@ -1,11 +1,7 @@
-# BomTelpSmsTokped
-## Call/Sms Boomber Tokocash (Tokopedia) OTP
-
-## Cara Pakai
-Masukan Nomer hp tujuan di file <b>run.php</b>
-<pre>//Eksekusi Call/Sms Boomber (Limit 3x/Jam)
-$init->type = 2; //Type 2 untuk telpon, Type 1 untuk sms
-$init->no = ""; //Nomer Hp tujuan</pre>
-
-## Note
-Saya tidak bertanggung jawab atas resiko (apapun itu).
+# Spammer-Grab
+Spams GAC (Grab Activation Code) SMS to a phone number repeatedly per 60 second. "Spammer" uses Grab passenger API to make the GAC sms sent. "Spammer" is tested under Python 2.7. NOTE: THIS TOOL IS NOT WORKING SINCE JANUARY 2018.
+# How to use?
+Just type 'python Spammer.py -h' to show the help message.
+# Me
+E-Mail: p4kl0nc4t@obsidiancyberteam.id
+Do not hesitate to contact me :)
