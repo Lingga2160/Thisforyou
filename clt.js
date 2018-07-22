@@ -170,7 +170,7 @@ const Excute = async function(User, TargetUsername, Text, Sleep){
 		do {
 			if (TargetCursor) Targetfeed.setCursor(TargetCursor);
 			var TargetResult = await Targetfeed.get();
-			TargetResult = _.chunk(TargetResult, 1);
+			TargetResult = _.chunk(TargetResult, 5);
 			for (let i = 0; i < TargetResult.length; i++) {
 				var timeNow = new Date();
 	      timeNow = `${timeNow.getHours()}:${timeNow.getMinutes()}:${timeNow.getSeconds()}`
