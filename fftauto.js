@@ -56,7 +56,7 @@ const Login = async function(User){
 }
 
 const Target = async function(username){
-	const url = 'https://www.instagram.com/'+username+'/?__a=1'
+	const url = 'https://www.instagram.com/'+username+'/'
 	const option = {
 		url: url,
 		method: 'GET',
